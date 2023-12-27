@@ -1,0 +1,141 @@
+.popular{
+   
+    background-color: var(--primary-color);
+    margin:0 0.695%;
+    background-image: url("../assets/popular_bg.png");
+    
+}
+.popular-heading{
+    font-family: var(--plus-jakarta-sans);
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    word-spacing: 0.8rem;
+}
+
+
+.popular-heading span{
+    font-size:3.2rem;
+}
+
+.popular-btns{
+    transition: all 0.3s ease-in-out;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap:15%;
+    margin-top:3rem;
+    padding: 0 5rem;
+}
+
+
+
+.popular-btns button{
+    min-height: 5rem;
+    background-color: transparent;
+    color: white;
+    border:1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 35px;
+    font-size: 1.2rem;
+    font-family: var(--plus-jakarta-sans);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.popular-btns button:hover{
+    background-color: white;
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.popular-btns button img{
+    width: 1.5rem;
+    margin-right: 0.6rem;
+}
+
+.popular-sushi-main{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+    margin:14rem 0;
+    margin-bottom: 6rem;;
+    
+}
+    
+.popular-sushi-box{
+    display: flex;
+    flex-direction: column;
+    margin:0 2rem;
+    background-color: #a1383d;
+    font-family: var(--plus-jakarta-sans);
+    height:330px;;
+    min-width: 360px;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    transition:transform 0.5s ease-in-out 0s;
+}
+
+.popular-sushi-box p{
+   
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+.popular-sushi-box:hover{
+    background-color: #fff8f8;
+    color:var(--primary-color);
+    transition: all 0.3s ease-in-out;
+    transform:translateY(-10px);
+}
+
+.popular-btn-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    background-color: var(--primary-color);
+    
+    
+
+}
+
+.popular-btn-explore{
+    padding:20px 0;
+    border-radius: 36px;
+    min-width:212px;
+    outline:none;
+    border:none;
+    color:white;
+    background:var(--secondary-color);
+    cursor:pointer;
+    font-weight: 500;
+    font-size:18px;
+    line-height:23px;
+    font-family: var(--plus-jakarta-sans);
+    margin-bottom: 8em;
+    margin-top: 2rem;
+    transition: transform 0.4s;
+    
+    
+    
+}
+
+
+.popular-btn-explore:hover{
+    background-color:white;
+    transform:translateY(-8px);
+    color:var(--primary-color)
+}
+
+
+

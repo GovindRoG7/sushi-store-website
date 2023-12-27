@@ -1,0 +1,46 @@
+@import url("index.css");
+@import url("about.css");
+@import url("popular.css");
+@import url("footer.css");
+@import url("style.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("menu.css");
+@import url("subscribe.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,200&display=swap');
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+:root{
+    --primary-color:#b1454a;
+    --secondary-color:#000000;
+    --playfair-display: 'Playfair Display', serif;
+    --plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+    --my-width:100%;
+    --josefin-slab: 'Josefin Slab', serif;
+    
+}
+body{
+    background-color: rgba(255,239,222,255);
+    padding:0 1em;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .hero-image img {
+      width: 100%; /* Make the image full-width for smaller screens */
+      left: 0;
+    }
+  }
+  
+

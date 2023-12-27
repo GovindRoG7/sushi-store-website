@@ -1,0 +1,93 @@
+.menu{
+    margin-top:1%;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.menu-heading{
+    
+    border-bottom: 6px double var(--primary-color);
+    border-top: 6px double var(--primary-color);
+    
+}
+
+.menu-heading h1{
+    font-family: var(--jakarta-sans);
+    font-size: 3.5em;
+    
+    color: var(--secondary-color);
+    text-align: center;
+   
+   
+}
+
+.menu-heading p{
+    font-family: var(--jakarta-sans);
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 0.5em 0;
+    font-style: italic;
+    
+}
+
+.menu-items{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    font-family: var(--playfair-display);
+    font-style: italic;
+    border-bottom: 6px double var(--primary-color);
+    overflow: hidden;
+}
+
+.menu-item-sushi{
+    border-right:3px solid var(--primary-color);
+}
+.menu-item-sushi-heading{
+    font-size: 2rem;
+}
+
+.menu-item-udon{
+    border-right:3px solid var(--primary-color);
+}
+
+.allmenu-item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 3% 
+}
+
+.menu-item-udon-heading{
+    font-size: 2rem;
+}
+
+.menu-item-ramen-heading{
+    font-size: 2rem;
+}
+
+.menu-item-drinks-heading{
+    font-size: 2rem;
+}
+
+.menu-quote{
+    padding-top:5rem;
+    height:10rem;
+    grid-row:span(2);
+    width:100%;
+    font-family: var(--jakarta-sans);
+    font-size: 1.5em;
+    color: var(--primary-color);
+    text-align: center;
+    font-style: italic;
+    z-index:  1;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-quote h1{
+    font-family:var(--playfair-display);
+    font-size:2rem;
+}

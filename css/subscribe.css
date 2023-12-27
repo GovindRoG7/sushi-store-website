@@ -1,0 +1,87 @@
+.newsletter{
+    background-color: var(--primary-color);
+    background-image: url('../../assets/subscribe_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.newsletter-heading h1{
+    font-family: var(--playfair-display);
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 120px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.newsletter-heading p{
+    font-family: var(--playfair-display);
+    font-size: 1em;
+    line-height: 36px;
+    margin-top:2rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+
+}
+
+.newsletter-form{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+    gap:10px;
+    margin-bottom: 1rem;
+    padding:2rem;
+    border:2px white solid;
+    border-radius: 55px;
+}
+
+.newsletter-form input{
+    flex:1;
+    font-size:1.2em;
+    font-weight:400px;
+    font-family: var(--Plus-jakarta-sans);
+    background: transparent;
+    border:none;
+    outline:none;
+    opacity:0.5;
+    color:white;
+    padding: 1.2rem 7rem;
+}
+
+.newsletter-form input::placeholder{
+    color:white;
+    opacity:0.5;
+}
+
+.newsletter-form button{
+    background-color: rgb(0, 0, 0);
+    min-width:180px;
+    border:none;
+    outline:none;
+    
+    border-radius: 46px;
+    padding: 1.2rem 1rem;
+    font-size: 1.15em;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    color:white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family:var(--plus-jakarta-sans);
+}
+
+.newsletter-form button:hover{
+    background-color: white;
+    color:var(--primary-color);
+    transform:translateY(-8px);
+}

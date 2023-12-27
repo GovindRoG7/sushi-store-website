@@ -1,0 +1,131 @@
+.about{
+    
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    justify-content: center;
+    align-items:left;
+    gap:100px;
+    margin-left:8%;
+    padding:30px;
+    max-width:50%;
+    
+    
+}
+
+ .about-text h{
+   
+    
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+    font-family: var(--plus-jakarta-sans);
+    
+}
+
+.about-text p1{
+    
+    font-size: 6rem;
+    position: relative;
+    bottom:50px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+    font-family: var(--playfair-display);
+    
+}
+.about-text p1 span{
+    font-size: 7rem;
+}
+
+
+.about-text p2{
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #000000;
+    text-align: left;
+    font-family: var(--plus-jakarta-sans);
+    letter-spacing: 2px;
+    position: relative;
+    bottom:30px;
+    padding-right:70px
+}
+
+.about-button{
+    padding-left: 5%;
+}
+.about-button button{
+    padding:20px;
+    border-radius: 36px;
+    min-width:212px;
+    outline:none;
+    border:none;
+    color:white;
+    background:var(--secondary-color);
+    cursor:pointer;
+    font-weight: 500;
+    font-size:18px;
+    line-height:23px;
+    position: relative;
+    bottom:70%;
+    transition: all 0.4s;
+    
+
+}
+
+.about-button button:hover{
+    background-color: #aa363c;
+    transform:translateY(-8px);
+}
+.about-pics{
+    
+    display:grid;
+    gap:20px;
+    row-gap:10px;
+
+
+}
+.about-pics-item1{
+    background-color: #fff;
+
+}
+
+.about-pics-item1__overlay{
+    position: relative;
+    left:15%;
+
+    
+
+}
+.about-pics-item2{
+    background-color: #fff;
+}
+
+
+.about-pics-item2__overlay{
+    position: relative;
+    left:12%;
+    
+}
+
+.about-pics-item1 img{
+    position: relative;
+    z-index: 1;
+    width:54%;
+    left:15%;
+    top:12%;
+}
+
+.about-pics-item2 img{
+    position: relative;
+    z-index: 1;
+    width:60%;
+    left:15%;
+    top:12%;}
+
